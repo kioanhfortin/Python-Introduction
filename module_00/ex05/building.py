@@ -1,6 +1,7 @@
 import sys
 import string
 
+
 def main():
 
     upper = 0
@@ -33,13 +34,13 @@ def main():
         elif char.isdigit():
             digit += 1
         size += 1
-    
     print(f"The text contains {size} characters:")
     print(f"- {upper} upper letters")
     print(f"- {lower} lower letters")
     print(f"- {punctuation} punctuation marks")
     print(f"- {space} spaces")
     print(f"- {digit} digits")
+
 
 if __name__ == "__main__":
     main()
