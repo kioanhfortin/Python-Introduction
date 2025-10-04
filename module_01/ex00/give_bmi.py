@@ -35,12 +35,14 @@ def apply_limit(bmi: List[float], limit: int) -> List[bool]:
 
 def main():
     try:
-        height = [2.71, 1.15]
-        weight = [165.3, 38.4]
+        # height = [2.71, 1.15]
+        # weight = [165.3, 38.4]
+        height = [1.64]
+        weight = [63.5]
 
         bmi = give_bmi(height, weight)
         print(bmi, type(bmi))
-        print(apply_limit(bmi, 26))
+        print(apply_limit(bmi, 25))
     except Exception as e:
         print(f"Error: {e}")
 
